@@ -48,7 +48,7 @@ int main(int argc, char **argv)
     }		
     time = (stop.tv_sec - start.tv_sec) + (double)(stop.tv_nsec - start.tv_nsec) / 1e9;
 
-    cout << "Execution time for input of size " << n << " with " << p << " processors: " << time << endl;
+    cout << "Execution time for input of size " << n << " with " << p << " threads: " << time << endl;
 
     return 0;
 }
